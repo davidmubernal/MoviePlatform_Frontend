@@ -1,0 +1,47 @@
+.back-form {
+    position: fixed;
+    display: flex;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255,255,255,0.3);
+    filter: blur(rgba(255,255,255,0.3));
+    justify-content: center;
+    align-items: center;
+}
+
+.back-form form {
+    width: 50rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #242424;
+    padding: 15px;
+    border: none;
+    border-radius: 2rem;
+}
+.back-form span {
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid;
+    margin: 0 5rem 1rem 5rem;
+}
+
+.back-form .button-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-reverse;
+    column-gap: 15px;
+}
+
+.back-form .button-container button {
+    width: fit-content;
+    margin-top: 10px;
+    padding: 5px 10px;
+    text-align: right;
+    border: none;
+    border-radius: 1rem;
+}
