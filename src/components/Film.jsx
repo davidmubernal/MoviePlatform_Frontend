@@ -19,7 +19,7 @@ export function Film({_id, title, director, year, score, image, onEdit, onDelete
   return (
     <div className='film' onClick={updateFilm} id={_id}>
       {/* TODO: create in API the way to send images to frontend */}
-      {/* <img className='preview'></img> */} 
+      {/* <img className='preview' loading='lazy' src={preview}></img> */} 
       <p className='title'>{title}</p>
         <p className='year'>{year}</p>
         <p className='director'>{director}</p>
@@ -52,7 +52,7 @@ export function AddFilm () {
 export function Star({fill=false}) {
   return(
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-      <path className="" fill={fill ? 'currentColor' : ''} stroke="currentColor" d="M12,17.3l6.2,3.7l-1.6-7L22,9.2l-7.2-0.6L12,2L9.2,8.6L2,9.2L7.5,14l-1.6,7L12,17.3z"></path>
+      <path className="" fill={fill ? 'yellow' : ''} stroke="black" d="M12,17.3l6.2,3.7l-1.6-7L22,9.2l-7.2-0.6L12,2L9.2,8.6L2,9.2L7.5,14l-1.6,7L12,17.3z"></path>
     </svg>
   )
 }

@@ -6,7 +6,6 @@
     width: 100vw;
     height: 100vh;
     background-color: rgba(255,255,255,0.3);
-    filter: blur(rgba(255,255,255,0.3));
     justify-content: center;
     align-items: center;
 }
@@ -16,7 +15,7 @@
     height: fit-content;
     display: flex;
     flex-direction: column;
-    background-color: #242424;
+    background-color: var(--background);
     padding: 15px;
     border: none;
     border-radius: 2rem;
@@ -27,6 +26,7 @@
     font-weight: bold;
     border: none;
     border-bottom: 2px solid;
+    border-color: var(--emphasis-color);
     margin: 0 5rem 1rem 5rem;
 }
 
