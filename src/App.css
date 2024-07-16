@@ -3,11 +3,6 @@
   width: 100%;
 }
 
-.app-title {
-  width: 100%;
-  text-align: center;
-}
-
 .filters {
   width: 100%;
   display: flex;
@@ -33,6 +28,10 @@
   justify-content: center;
   padding: 2rem 0 2rem 0;
 }
+.new-film button {
+  background-color: var(--emphasis-color);
+  width: 20ch;
+}
 
 .new-film button {
   padding: 10px;
@@ -41,4 +40,12 @@
   font-weight: bold;
   border-radius: 1.5rem;
   border: none;
+}
+
+.app-title {
+  color: var(--emphasis-color)
+}
+
+.app-title h1 {
+  text-decoration: underline;
 }

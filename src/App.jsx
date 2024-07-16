@@ -55,9 +55,6 @@ function App() {
   }, [filtersValues])
   return (
     <>
-      <section className='app-title'>
-        <h1>MovieApp</h1>
-      </section>
       <section className='filters'>
         <Filter _id="filters_title" name="Title" filterType={FilterType.Text} callback={callbackFilter}></Filter>
         <Filter _id="filters_director" name="Director" filterType={FilterType.Text} callback={callbackFilter}></Filter>

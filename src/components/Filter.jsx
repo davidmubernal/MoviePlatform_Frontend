@@ -5,6 +5,7 @@ export const FilterType = {
   Date: "date",
   Score: "score",
   Text: "text"
+  // Preview: "preview"
 }
 export function Filter({_id, name, filterType, currentText = "", callback=null}) {
   const [value, setValue] = useState(currentText)
@@ -22,6 +23,8 @@ export function Filter({_id, name, filterType, currentText = "", callback=null})
         return <input id={id} type="number" min="1895" step="1" value={value} onChange={e => onTextChange(e.target.value)}/>
       case FilterType.Text:
         return <input id={id} type="text" value={value} onChange={e => onTextChange(e.target.value)}/>
+      // case FilterType.Preview:
+      //   return <input type="file" accept="image/png, image/jpeg" id={id} onChange={e => onTextChange(e.target.files[0])}/>
     }
   }
   let doc = 

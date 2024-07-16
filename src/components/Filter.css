@@ -4,11 +4,11 @@
 }
 .filter fieldset {
     border: 1px solid;
-    border-color: aliceblue;
+    border-color: var(--emphasis-color);
     border-radius: 1rem;
 }
 .filter legend {
-    background-color: 242424;
+    background-color: var(--background);
     padding: 10px;
 }
 
