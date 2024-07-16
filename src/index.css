@@ -1,7 +1,6 @@
 :root {
   --background: #242424;
-  --background-title : rgb(0, 41, 77);
-  /* --background-element: #141b3a; */
+  --background-title : rgb(0, 73, 138);
 
   --background-element: rgb(0, 136, 255);
   --font-color: rgba(255, 255, 255, 0.87);
@@ -28,7 +27,7 @@ body {
   flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
-  background: linear-gradient(180deg, var(--background-title) 0%, var(--background) 13%, var(--background) 80%, var(--background-title) 100%);
+  background: linear-gradient(180deg, var(--background-title) 2%, var(--background) 13%, var(--background) 80%, var(--background-title) 98%);
 }
 
 h1 {
