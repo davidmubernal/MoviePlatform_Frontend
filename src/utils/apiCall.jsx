@@ -1,5 +1,5 @@
 
-const URL = 'http://127.0.0.1:30000'
+const URL = import.meta.env.VITE_API_URL
 export const METHODS = {
   GET:'GET',
   POST:'POST',
